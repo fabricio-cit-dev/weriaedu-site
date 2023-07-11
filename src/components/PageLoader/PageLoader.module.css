@@ -1,0 +1,66 @@
+/* 21. Preloader */
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.preloader {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f87000;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+}
+
+.loadingimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+  width: 25%;
+  margin-left: 35%;
+  animation-name: fade;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+@keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+
+.progress-bar {
+  height: 4px;
+  width: 100%;
+  background-image: linear-gradient(25deg, #e51222, #f06320, #f9951a, #ffc209);
+}
