@@ -427,7 +427,7 @@
     display: block;
   }
   .menu-area .mobile-nav-toggler {
-    color: #fff;
+    color: #ff5c00;
     margin-top: 17px;
   }
   .banner-content .title {
@@ -807,7 +807,7 @@
     height: 300px;
     width: auto;
     image-rendering: auto;
-  } 
+  }
   .about-img img.img-two {
     display: none;
   }
@@ -852,7 +852,7 @@
   .projetos {
     flex-direction: column-reverse;
   }
-  .texto-projetos{
+  .texto-projetos {
     align-items: center;
     justify-content: center;
   }
@@ -879,13 +879,13 @@
   .footer-area {
     height: 100%;
   }
-  .footer-top{
+  .footer-top {
     flex-direction: column;
   }
   .footer-widget {
     margin: 0;
   }
-  .footer-contacts{
+  .footer-contacts {
     margin-bottom: 30px;
   }
   .banner-social-wrap {
@@ -1193,9 +1193,9 @@
   }
   .banner-line .line {
     height: 50px;
-  } 
-  .banner-content .title{
-    margin-left: 5%;  
+  }
+  .banner-content .title {
+    margin-left: 5%;
   }
   .logo-animation {
     justify-content: center;
@@ -1213,8 +1213,8 @@
     width: 70vw;
     margin-bottom: 10px;
   }
-  .about-area.pt-130.pb-130 {
-    height: 100vh;
+  .about-area-pt-130-pb-130 {
+    min-height: 125vh;
   }
   .sub-title-about {
     margin-top: -120px;
@@ -1222,9 +1222,14 @@
   .about-img {
     width: 20vh;
     margin-left: 90px;
-    margin-top: -150px;
+    margin-top: -130px;
     height: auto;
-    margin-bottom: -15px;
+    margin-bottom: 0;
+  }
+  .logo-whoweare {
+    border-top: 10px solid #ff5c00;
+    border-right: 20px solid #ff5c00;
+    border-bottom: 20px solid #ff5c00;
   }
   .about-content {
     margin-left: 2%;
@@ -1247,12 +1252,14 @@
     max-height: 100%;
   }
   .team-wrapper {
-    min-height: 200%;
-    background-position: center;
+    min-height: 140%;
   }
   .time-div {
     display: flex;
     flex-direction: column;
+  }
+  .chart-area {
+    min-height: 120%;
   }
   .choose-item-sales {
     height: 70vh;
@@ -1269,7 +1276,7 @@
     display: none;
   }
   .choose-item {
-    height: 62vh;
+    height: 40vh;
   }
   .texto-projetos td {
     text-align: left;
@@ -1286,10 +1293,10 @@
   .texto-projetos {
     margin-right: 25%;
   }
-  .texto-projetos td{
+  .texto-projetos td {
     margin-right: 25%;
   }
-  .texto-projetos tr{
+  .texto-projetos tr {
     margin-right: 20%;
   }
   .slide {

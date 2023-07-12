@@ -30,7 +30,7 @@ const FooterOne = () => {
                 <img
                   src={logoImage}
                   alt="Incript Logo"
-                  style={{ imageRendering: "auto", objectFit: "fill", marginLeft: "-40px"}}
+                  style={{ marginLeft: "-40px"}}
                 />
                 <div className="footer-content">
                   <p>

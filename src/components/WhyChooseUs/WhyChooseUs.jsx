@@ -1,8 +1,9 @@
 import React from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
-import icon01 from "../../assets/img/icon/devops.png";
-import icon02 from "../../assets/img/icon/inteligencia-artificial.png";
-import icon03 from "../../assets/img/icon/iot1.png";
+import icon01 from "../../assets/img/icon/icons8-pesquisa-50.png";
+import icon02 from "../../assets/img/icon/icons8-design-50.png";
+import icon03 from "../../assets/img/icon/icons8-boletim-50.png";
+import icon04 from "../../assets/img/icon/icons8-implantação-50.png";
 import WhyChooseUsItem from "./WhyChooseUsItem";
 
 const WhyChooseUs = () => {
@@ -12,7 +13,7 @@ const WhyChooseUs = () => {
     speed: 1000,
     autoplay: true,
     arrows: false,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
@@ -54,33 +55,57 @@ const WhyChooseUs = () => {
       src: icon01,
       alt: "",
       link: "/",
-      title: "Weria Devops",
-      description: `Os maiores desafios dos negócios modernos é entregar software de alta qualidade e com rapidez, onde a abordagem tradicional de desenvolvimento de software, na qual as equipes de desenvolvimento e operações são separadas, não conseguia atender às demandas do mercado. Pensando nisso criamos a oferta Weria DevOps, um conjunto de práticas de cultura, processos e ferramentas com a finalidade de promover a integração das áreas de negócio de desenvolvimento e sustentação de software e operações de TI, para garantir o aumento de produtividade, agilidade, eficiência e disponibilidade dos seus softwares, permitindo que a nossa equipe responda rapidamente às suas necessidades entregando valor com inovação e melhoria contínua, fazendo uso de tecnologias automatizadas para garantir que as aplicações sejam entregues de forma confiável e segura, facilitando a resolução de problemas rapidamente em caso de falhas.`,
+      title: "Pesquisa e planejamento",
+      description: `O processo de desenvolvimento de uma empresa que cria plataformas de ensino utilizando IA e Ciência de Dados começa com uma pesquisa aprofundada para identificar as necessidades e lacunas existentes na área educacional. A empresa realiza um planejamento estratégico, definindo os objetivos, metas e escopo do projeto. Nesta fase, são considerados os recursos necessários, a tecnologia a ser utilizada e a equipe necessária para o desenvolvimento da plataforma.`,
     },
     {
       src: icon02,
       alt: "",
       link: "/",
-      title: "Weria IA",
-      description: `A Inteligência Artificial (IA) tem evoluído rapidamente, e hoje é uma área de pesquisa ativa que envolve a criação de algoritmos e sistemas computacionais capazes de aprender, tomar decisões e realizar tarefas sem intervenção humana. A Weria IA é uma combinação de equipe técnica especializada com a escolha da ferramenta certa dependendo do tipo de tarefa de aprendizado de máquina que se deseja realizar. Fazemos isso por meio da identificação da melhor abordagem de inteligência artificial a ser utilizada, realizando um diagnóstico do tipo de problema a resolver, o conjunto de dados disponíveis, os recursos computacionais disponíveis e os objetivos de negócios específicos.`,
+      title: "Design e desenvolvimento",
+      description: `Com base na pesquisa e no planejamento, a empresa inicia o processo de design e desenvolvimento da plataforma de ensino. Especialistas em design de interface de usuário (UI) e experiência do usuário (UX) trabalham em conjunto com engenheiros de software para criar uma interface intuitiva e amigável. A IA e a Ciência de Dados são aplicadas para desenvolver algoritmos inteligentes que adaptam o ensino às necessidades individuais dos alunos, personalizando o conteúdo e as atividades.`,
     },
     {
       src: icon03,
       alt: "",
       link: "/",
-      title: "Weria IoT",
-      description: `IoT, Internet das Coisas, ou Internet of Things em inglês, permite que as coisas “conversem” entre si e com outros dispositivos conectados à Internet, possibilitando a automação de tarefas, a melhoria da eficiência e a coleta de dados para a tomada de decisões baseadas em dados. Além disso, a IoT está revolucionando vários setores, como a indústria, a saúde, a agricultura e a segurança.Nessa era de tantas inovações, a Weria IoT veio para entregar soluções que variam de acordo com as necessidades específicas de cada empresa ou usuário. Algumas dessas soluções incluem Smart Home, Wearables, Agtech, Health Tech, Manutenção Preditiva, Cidades Inteligentes e muitas outras. Além dessas soluções customizadas, a Weria IoT possui seus próprios produtos, confira aqui.`,
+      title: "Testes e aprimoramento",
+      description: `Após o desenvolvimento inicial da plataforma, são realizados testes rigorosos para verificar sua funcionalidade, desempenho e usabilidade. Feedbacks de usuários, incluindo alunos e professores, são coletados para identificar possíveis melhorias e ajustes. A empresa utiliza dados coletados durante os testes para aprimorar a plataforma, aperfeiçoar os algoritmos de IA e garantir a eficácia do ensino adaptativo.`,
+    },
+    {
+      src: icon04,
+      alt: "",
+      link: "/",
+      title: "Implantação e suporte",
+      description: `Uma vez que a plataforma tenha passado pelos testes e refinamentos necessários, ela é implantada e disponibilizada para escolas, instituições educacionais e alunos. A empresa oferece suporte técnico e treinamento para professores e administradores, garantindo uma transição tranquila e um uso eficaz da plataforma. Além disso, a empresa continua a monitorar o desempenho da plataforma, coletando dados em tempo real e realizando atualizações regulares para garantir que ela permaneça atualizada e alinhada com as necessidades em constante evolução da educação.`,
     },
   ];
 
   return (
     <section id="soluctions" className="choose-area">
-      <div className="section-title text-center mb-50" style={{backgroundColor: "#0000007f", borderRadius: "50px"}}>
+      <div className="section-title text-center mb-50">
         <br />
-        <span className="sub-title" style={{color: "#ff5c00"}}>Nossas Soluções</span>
-        <h2 className="title" style={{color: "#ff5c00"}}>
-          soluções que visam melhorar e automatizar processos em diferentes
-          setores!
+        <span
+          className="sub-title"
+          style={{
+            color: "#FF6551",
+            display: "flex",
+            justifyContent: "flex-start",
+            fontSize: "14px",
+          }}
+        >
+          Nossos métodos
+        </span>
+        <h2
+          className="title"
+          style={{
+            color: "#404040",
+            display: "flex",
+            justifyContent: "flex-start",
+            fontSize: "40px",
+          }}
+        >
+          Desenvolvimento de Plataformas de Ensino Inovadoras
         </h2>
       </div>
 

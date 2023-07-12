@@ -12,7 +12,7 @@ const FooterContact = () => {
             alt="email-icon"
             className="emai-footer-icon"
             style={{
-              backgroundColor: "#ff9100",
+              backgroundColor: "#ff5c00",
               borderRadius: "50%",
               padding: "5px",
               marginRight: "5px",
@@ -27,7 +27,7 @@ const FooterContact = () => {
               alt="localização"
               className="locali-icon"
               style={{
-                backgroundColor: "#ff9100",
+                backgroundColor: "#ff5c00",
                 borderRadius: "50%",
                 padding: "5px",
                 marginRight: "5px",

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import cn from "classnames";
-import logoImage from "../../../src/assets/img/logo/weria-logo-nome-branca.png";
+import logoImage from "../../../src/assets/img/logo/weria-logo-preto.png";
 import { handleClickScroll } from "../../lib/helpers";
 
 const HeaderOne = () => {
@@ -66,8 +66,7 @@ const HeaderOne = () => {
                         style={{
                           height: "110px",
                           width: "220px",
-                          objectFit: "contain",
-                          filter: "brightness(0) invert(1)",
+                          objectFit: "fill",
                         }}
                       />
                     </Link>

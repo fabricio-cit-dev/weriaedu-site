@@ -91,10 +91,11 @@ const Home = () => {
         <CookieBanner />
         <Banner />
         <WhoWeAre />
-        <WhyChooseUs />        
-        <div className="area-bg">
-          <Roadmap />
+        <div className="team-wrapper">
+          <TeamOne />
         </div>
+        <Sales />
+        <WhyChooseUs />
         <FooterOne />
       </main>
     </LayoutOne>
@@ -103,8 +104,8 @@ const Home = () => {
 
 export default Home;
 
-
-{/* <div className="team-wrapper">
-          <TeamOne />
-        </div>
-        <Sales /> */}
+{
+  /* <div className="area-bg">
+          <Roadmap />
+        </div> */
+}

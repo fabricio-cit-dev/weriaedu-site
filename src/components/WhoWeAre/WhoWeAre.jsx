@@ -26,7 +26,7 @@ const WhoWeAre = (props) => {
     <section id="about" className="about-area-pt-130-pb-130">
       <div className="container">
         <div className="sub-title-div">
-          <span className="sub-title-about">
+          <span className="sub-title-about" style={{color: "#404040"}}>
             Tenha uma educação de qualidade
           </span>
         </div>
@@ -35,13 +35,7 @@ const WhoWeAre = (props) => {
             <div className="about-img">
               <img
                 src={img01}
-                alt="logo-whoweare"
-                style={{
-                  borderTop: "40px solid #ff5c00",
-                  borderRight: "80px solid #ff5c00",
-                  borderBottom: "40px solid #ff5c00",
-                  borderRadius: "100%",
-                }}
+                className="logo-whoweare"
               />
             </div>
           </div>
