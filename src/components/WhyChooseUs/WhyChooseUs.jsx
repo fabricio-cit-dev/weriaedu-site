@@ -92,6 +92,7 @@ const WhyChooseUs = () => {
             display: "flex",
             justifyContent: "flex-start",
             fontSize: "14px",
+            marginLeft: "20px",
           }}
         >
           Nossos métodos
@@ -103,6 +104,7 @@ const WhyChooseUs = () => {
             display: "flex",
             justifyContent: "flex-start",
             fontSize: "40px",
+            marginLeft: "20px",
           }}
         >
           Desenvolvimento de Plataformas de Ensino Inovadoras
