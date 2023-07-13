@@ -241,6 +241,20 @@ const HeaderOne = () => {
                         </Link>
                       </li>
                     </ul>
+                    <div className="social-navbar">
+                      <ul className="clearfix">
+                        <li>
+                          <a href="https://www.linkedin.com/company/incript/">
+                            <i className="fab fa-linkedin-in"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/incriptime/">
+                            <i className="fab fa-instagram"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </nav>
               </div>
