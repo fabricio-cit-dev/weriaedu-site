@@ -1,5 +1,5 @@
 import React from "react";
-import imgAI from "../../assets/img/images/print-odisseia.png";
+import imgAI from "../../assets/img/images/odisseia_image.jpg";
 
 const TeamOne = () => {
   return (
@@ -35,7 +35,7 @@ const TeamOne = () => {
             <img
               className="imgEmpresa"
               src={imgAI}
-              style={{ imageRendering: "auto", objectFit: "fill" }}
+              style={{ imageRendering: "auto", objectFit: "cover", width: "100%"}}
             />
           </div>
           <div
@@ -43,6 +43,7 @@ const TeamOne = () => {
               display: "flex",
               flex: 0.5,
               flexDirection: "column",
+              justifyContent: "center",
             }}
           >
             <p

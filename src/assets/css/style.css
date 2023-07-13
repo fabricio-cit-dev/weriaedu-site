@@ -615,7 +615,7 @@ label {
 
 .social-navbar li a:hover {
   border-color: #000000;
-  background: #ffffff;
+  background: #ff5c00;
   color: #000000;
 }
 
@@ -1074,7 +1074,7 @@ label {
 
 /* 4. Banner */
 .banner-bg {
-  background-color: #ff7b2e;
+  background-image: url("../img/images/fundo-teste.jpg");
   height: 100vh;
   margin: 0;
   padding: 0;

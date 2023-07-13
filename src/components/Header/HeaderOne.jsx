@@ -103,6 +103,15 @@ const HeaderOne = () => {
                         >
                           Sobre nós
                         </Link>
+                      </li>                      
+                      <li className={isActiveLink("#portfolio")}>
+                        <Link
+                          to="/#empresa"
+                          className="section-link"
+                          onClick={() => handleScrollToSection("empresa")}
+                        >
+                          Parceiros
+                        </Link>
                       </li>
                       <li className={cn(hash === "#soluctions" && "active")}>
                         <Link
@@ -110,25 +119,7 @@ const HeaderOne = () => {
                           className="section-link"
                           onClick={() => handleScrollToSection("soluctions")}
                         >
-                          Soluções
-                        </Link>
-                      </li>
-                      <li className={isActiveLink("#portfolio")}>
-                        <Link
-                          to="/#portfolio"
-                          className="section-link"
-                          onClick={() => handleScrollToSection("portfolio")}
-                        >
-                          Diferenciais
-                        </Link>
-                      </li>
-                      <li className={isActiveLink("#roadmap")}>
-                        <Link
-                          to="/#roadmap"
-                          className="section-link"
-                          onClick={() => handleScrollToSection("roadmap")}
-                        >
-                          Como fazemos
+                          Como Fazemos
                         </Link>
                       </li>
                       <li className={isActiveLink("#footer")}>

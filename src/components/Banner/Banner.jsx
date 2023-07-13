@@ -31,6 +31,7 @@ const Banner = () => {
                 style={{
                   display: "flex",
                   justifyContent: "center",
+                  alignItems: "center",
                   marginTop: "20px",
                   color: "#000000",
                 }}

@@ -756,12 +756,26 @@
     width: 100%;
     height: auto;
   }
+
+  .banner-home {
+    flex-direction: row-reverse;
+  }
+
+  .banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .banner-content .title {
     margin-left: -5%;
-  }
-  .logo-animation {
-    right: -25%;
-    margin-top: -65%;
   }
   .banner-countdown,
   .time-count-hour,
@@ -792,6 +806,12 @@
     margin-bottom: 10px;
     margin-left: 20%;
   }
+
+  .logo-whoweare {
+    border-top: 10px solid #ff5c00;
+    border-right: 20px solid #ff5c00;
+    border-bottom: 10px solid #ff5c00;
+  }
   .sub-title-about {
     margin-top: -10px;
   }
@@ -818,11 +838,8 @@
     min-height: 85vh;
   }
   .team-wrapper {
-    min-height: 135vh;
+    min-height: 140vh;
     background-position: center;
-  }
-  .team-area {
-    height: 100%;
   }
   .time-div {
     flex-direction: column;
@@ -832,6 +849,9 @@
   }
   .partner-wrap ul li {
     width: 100%;
+  }
+  .chart-bg {
+    min-height: 140vh;
   }
   .chart-content .nav-tabs .nav-item {
     padding: 0 15px 10px;
@@ -1184,6 +1204,16 @@
   body {
     scroll-behavior: auto;
   }
+
+  .banner-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .banner-home {
+    flex-direction: column;
+  }
+
   .banner-content .title {
     margin-top: 50%;
   }
@@ -1252,14 +1282,14 @@
     max-height: 100%;
   }
   .team-wrapper {
-    min-height: 140%;
+    min-height: 160%;
   }
   .time-div {
     display: flex;
     flex-direction: column;
   }
   .chart-area {
-    min-height: 120%;
+    min-height: 150%;
   }
   .choose-item-sales {
     height: 70vh;

@@ -3,7 +3,7 @@ import styles from "./styles";
 import icon01 from "../../assets/img/icon/icon_choose.png";
 import icon02 from "../../assets/img/icon/icon_valores.png";
 import icon03 from "../../assets/img/icon/icon_move.png";
-import imgAI from "../../assets/img/images/estudologia-print.png";
+import imgAI from "../../assets/img/images/estudologia_ia.jpg";
 import SlickSliderSales from "./SlickSliderSales";
 import SliderSales from "./slider-sales";
 import SalesItem from "./slider-sales";
@@ -34,14 +34,16 @@ const Sales = () => {
             <img
               className="imgEmpresa"
               src={imgAI}
-              style={{ imageRendering: "auto", objectFit: "fill"}}
+              style={{ imageRendering: "auto", objectFit: "cover", width: "100%"}}
             />
           </div>
           <div
             style={{
               display: "flex",
               flex: 0.5,
+              height: "75%",
               flexDirection: "column",
+              justifyContent: "center",
             }}
           >
             <p
