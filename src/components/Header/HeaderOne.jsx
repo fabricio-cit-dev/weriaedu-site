@@ -103,7 +103,7 @@ const HeaderOne = () => {
                         >
                           Sobre nós
                         </Link>
-                      </li>                      
+                      </li>
                       <li className={isActiveLink("#portfolio")}>
                         <Link
                           to="/#empresa"
@@ -207,6 +207,17 @@ const HeaderOne = () => {
                           Sobre nós
                         </Link>
                       </li>
+                      <li className={isActiveLink("#empresa")}>
+                        <Link
+                          className="section-link"
+                          onClick={() => {
+                            handleClickScroll("empresa");
+                            toggleMobileMenu();
+                          }}
+                        >
+                          Parceiros
+                        </Link>
+                      </li>
                       <li className={isActiveLink("#soluctions")}>
                         <Link
                           className="section-link"
@@ -215,29 +226,7 @@ const HeaderOne = () => {
                             toggleMobileMenu();
                           }}
                         >
-                          Soluções
-                        </Link>
-                      </li>
-                      <li className={isActiveLink("#portfolio")}>
-                        <Link
-                          className="section-link"
-                          onClick={() => {
-                            handleClickScroll("portfolio");
-                            toggleMobileMenu();
-                          }}
-                        >
-                          Diferenciais
-                        </Link>
-                      </li>
-                      <li className={isActiveLink("#roadmap")}>
-                        <Link
-                          className="section-link"
-                          onClick={() => {
-                            handleClickScroll("roadmap");
-                            toggleMobileMenu();
-                          }}
-                        >
-                          Como fazemos
+                          Como Fazemos
                         </Link>
                       </li>
                       <li className={isActiveLink("#footer")}>
