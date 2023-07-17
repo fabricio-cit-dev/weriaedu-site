@@ -30,7 +30,7 @@
   width: 25%;
   margin-left: 35%;
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }

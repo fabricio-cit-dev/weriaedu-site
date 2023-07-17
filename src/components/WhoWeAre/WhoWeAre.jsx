@@ -48,7 +48,7 @@ const WhoWeAre = (props) => {
                 </h2>
               </div>
               <p style={{ textAlign: "justify" }}>
-                Nossa é uma líder em tecnologia educacional, desenvolvendo
+                Nossa empresa é uma líder em tecnologia educacional, desenvolvendo
                 softwares que visam melhorar a educação por meio de materiais de
                 alta qualidade e o uso inteligente da Inteligência Artificial
                 (IA). Nosso objetivo é maximizar o aprendizado dos alunos e

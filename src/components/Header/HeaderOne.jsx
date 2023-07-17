@@ -135,12 +135,12 @@ const HeaderOne = () => {
                     <div className="social-navbar">
                       <ul className="clearfix">
                         <li>
-                          <a href="https://www.linkedin.com/company/incript/">
+                          <a href="https://www.linkedin.com/">
                             <i className="fab fa-linkedin-in"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.instagram.com/incriptime/">
+                          <a href="https://www.instagram.com/">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>
@@ -244,12 +244,12 @@ const HeaderOne = () => {
                     <div className="social-navbar">
                       <ul className="clearfix">
                         <li>
-                          <a href="https://www.linkedin.com/company/incript/">
+                          <a href="https://www.linkedin.com/">
                             <i className="fab fa-linkedin-in"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.instagram.com/incriptime/">
+                          <a href="https://www.instagram.com/">
                             <i className="fab fa-instagram"></i>
                           </a>
                         </li>

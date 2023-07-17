@@ -1208,6 +1208,7 @@
   .banner-bg {
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 115vh;
   }
 
   .banner-home {
@@ -1228,10 +1229,11 @@
     margin-left: 5%;
   }
   .logo-animation {
+    display: flex;
     justify-content: center;
     align-items: center;
-    left: 0%;
-    margin-top: -15%;
+    width: 80%;
+    margin-top: -20%;
   }
   .banner-countdown,
   .time-count-hour,
@@ -1244,7 +1246,7 @@
     margin-bottom: 10px;
   }
   .about-area-pt-130-pb-130 {
-    min-height: 125vh;
+    min-height: 140vh;
   }
   .sub-title-about {
     margin-top: -120px;
@@ -1279,17 +1281,16 @@
   }
   .choose-item {
     min-height: 100vh;
-    max-height: 100%;
   }
   .team-wrapper {
-    min-height: 160%;
+    min-height: 180%;
   }
   .time-div {
     display: flex;
     flex-direction: column;
   }
   .chart-area {
-    min-height: 150%;
+    min-height: 200%;
   }
   .choose-item-sales {
     height: 70vh;
