@@ -10,6 +10,7 @@ import WhoWeAre from "../../components/WhoWeAre/WhoWeAre";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import LayoutOne from "../../layouts/LayoutOne";
 import Cookie from "../../assets/img/logo/cookies.png";
+import ContactOneForm from "../../components/Contact/ContactOneForm";
 import styles from "./styles";
 import FooterOne from "../../components/Footer/FooterOne";
 
@@ -96,6 +97,7 @@ const Home = () => {
         </div>
         <Sales />
         <WhyChooseUs />
+        <ContactOneForm />
         <FooterOne />
       </main>
     </LayoutOne>

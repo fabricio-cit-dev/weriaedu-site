@@ -881,7 +881,16 @@
   }
   .contact-form-wrap {
     padding: 35px 20px;
+    flex-direction: column;
+    min-height: 120vh;
   }
+  .step-map::before {
+    height: 65%;
+    top: 40%;
+  }
+  .step-dot {
+    height: 40px;
+  } 
   .footer-top .row [class*="col-"]:nth-child(2) .footer-widget {
     margin-left: 0;
   }
@@ -1335,6 +1344,12 @@
   }
   .contact-form-wrap {
     padding: 45px 35px;
+    flex-direction: column;
+    min-height: 200vh;
+  }
+  .step-map::before {
+    height: 65%;
+    top: 35%;
   }
   .banner-content .title {
     font-size: 32px;
